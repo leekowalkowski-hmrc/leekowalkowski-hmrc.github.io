@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Server-side validation example</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+   <a href="#main-content" class="skip-link">Skip to main content</a>
+   <div class="width-container">
+      <main class="main-wrapper" id="main-content" role="main">
+        <h1 class="heading-xl">Create an event</h1>
+        <form action="server-error.html">
+          <div class="form-group">
+            <label class="label" for="event-name">Event name</label>
+            <span id="event-name-hint" class="hint">The name you&#39;ll use on promotional material.</span>
+            <input class="input" id="event-name" name="event-name" type="text" aria-describedby="event-name-hint">
+          </div>
+          <button type="submit" class="button">Save and continue</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
